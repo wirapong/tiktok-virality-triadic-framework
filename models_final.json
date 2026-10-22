@@ -1,0 +1,411 @@
+{
+ "M1_content": {
+  "formula": "log_views ~ share_algo + n_hashtags + layer_count + cap_words + cap_second_person + cap_intrigue + cap_problem + is_kpop + is_perf",
+  "n": 93,
+  "clusters": 87,
+  "r2": 0.129,
+  "adj": 0.034,
+  "F": 1.361,
+  "Fp": 0.2191,
+  "rmse": 0.5627,
+  "aic": 166.39,
+  "bp_p": 0.5041,
+  "reset_p": 0.0332,
+  "shapiro_p": 0.5908,
+  "dw": 1.651,
+  "maxcook": NaN,
+  "vif": {
+   "share_algo": 1.82,
+   "n_hashtags": 1.73,
+   "layer_count": 2.79,
+   "cap_words": 1.25,
+   "cap_second_person": 1.58,
+   "cap_intrigue": 1.23,
+   "cap_problem": 1.56,
+   "is_kpop": 1.24,
+   "is_perf": 1.25
+  },
+  "coef": [
+   {
+    "term": "Intercept",
+    "b": 5.9176,
+    "se": 0.1433,
+    "t": 41.295,
+    "p": 0.0,
+    "lo": 5.6367,
+    "hi": 6.1985,
+    "beta": null
+   },
+   {
+    "term": "share_algo",
+    "b": 0.528,
+    "se": 0.6252,
+    "t": 0.844,
+    "p": 0.3984,
+    "lo": -0.6975,
+    "hi": 1.7535,
+    "beta": 0.106
+   },
+   {
+    "term": "n_hashtags",
+    "b": -0.0087,
+    "se": 0.0109,
+    "t": -0.793,
+    "p": 0.4277,
+    "lo": -0.0301,
+    "hi": 0.0127,
+    "beta": -0.105
+   },
+   {
+    "term": "layer_count",
+    "b": 0.0162,
+    "se": 0.1113,
+    "t": 0.145,
+    "p": 0.8845,
+    "lo": -0.202,
+    "hi": 0.2343,
+    "beta": 0.021
+   },
+   {
+    "term": "cap_words",
+    "b": -0.0004,
+    "se": 0.001,
+    "t": -0.439,
+    "p": 0.6604,
+    "lo": -0.0024,
+    "hi": 0.0015,
+    "beta": -0.022
+   },
+   {
+    "term": "cap_second_person",
+    "b": -0.0126,
+    "se": 0.2255,
+    "t": -0.056,
+    "p": 0.9556,
+    "lo": -0.4546,
+    "hi": 0.4295,
+    "beta": -0.004
+   },
+   {
+    "term": "cap_intrigue",
+    "b": -0.1277,
+    "se": 0.2201,
+    "t": -0.58,
+    "p": 0.5619,
+    "lo": -0.559,
+    "hi": 0.3037,
+    "beta": -0.063
+   },
+   {
+    "term": "cap_problem",
+    "b": 0.9659,
+    "se": 0.2565,
+    "t": 3.766,
+    "p": 0.0002,
+    "lo": 0.4632,
+    "hi": 1.4687,
+    "beta": 0.175
+   },
+   {
+    "term": "is_kpop",
+    "b": -0.1433,
+    "se": 0.1319,
+    "t": -1.087,
+    "p": 0.2772,
+    "lo": -0.4019,
+    "hi": 0.1152,
+    "beta": -0.126
+   },
+   {
+    "term": "is_perf",
+    "b": -0.2328,
+    "se": 0.1429,
+    "t": -1.629,
+    "p": 0.1033,
+    "lo": -0.5129,
+    "hi": 0.0473,
+    "beta": -0.168
+   }
+  ]
+ },
+ "M0_genre": {
+  "formula": "log_views ~ is_kpop + is_perf",
+  "n": 93,
+  "clusters": 87,
+  "r2": 0.079,
+  "adj": 0.058,
+  "F": 3.857,
+  "Fp": 0.0247,
+  "rmse": 0.5556,
+  "aic": 157.54,
+  "bp_p": 0.093,
+  "reset_p": 0.2693,
+  "shapiro_p": 0.3244,
+  "dw": 1.565,
+  "maxcook": 0.0645,
+  "vif": {
+   "is_kpop": 1.1,
+   "is_perf": 1.1
+  },
+  "coef": [
+   {
+    "term": "Intercept",
+    "b": 5.9224,
+    "se": 0.0896,
+    "t": 66.093,
+    "p": 0.0,
+    "lo": 5.7467,
+    "hi": 6.098,
+    "beta": null
+   },
+   {
+    "term": "is_kpop",
+    "b": -0.204,
+    "se": 0.1158,
+    "t": -1.762,
+    "p": 0.078,
+    "lo": -0.4309,
+    "hi": 0.0229,
+    "beta": -0.179
+   },
+   {
+    "term": "is_perf",
+    "b": -0.235,
+    "se": 0.1352,
+    "t": -1.738,
+    "p": 0.0823,
+    "lo": -0.5,
+    "hi": 0.0301,
+    "beta": -0.17
+   }
+  ]
+ },
+ "M2_kpop_adj": {
+  "formula": "log_views ~ is_kpop + is_perf + n_hashtags + cap_words",
+  "n": 93,
+  "clusters": 87,
+  "r2": 0.081,
+  "adj": 0.04,
+  "F": 1.949,
+  "Fp": 0.1094,
+  "rmse": 0.5611,
+  "aic": 161.3,
+  "bp_p": 0.1192,
+  "reset_p": 0.2841,
+  "shapiro_p": 0.3823,
+  "dw": 1.578,
+  "maxcook": 0.133,
+  "vif": {
+   "is_kpop": 1.18,
+   "is_perf": 1.11,
+   "n_hashtags": 1.07,
+   "cap_words": 1.03
+  },
+  "coef": [
+   {
+    "term": "Intercept",
+    "b": 5.9473,
+    "se": 0.1009,
+    "t": 58.956,
+    "p": 0.0,
+    "lo": 5.7495,
+    "hi": 6.145,
+    "beta": null
+   },
+   {
+    "term": "is_kpop",
+    "b": -0.1895,
+    "se": 0.1293,
+    "t": -1.466,
+    "p": 0.1427,
+    "lo": -0.4429,
+    "hi": 0.0639,
+    "beta": -0.166
+   },
+   {
+    "term": "is_perf",
+    "b": -0.2371,
+    "se": 0.1361,
+    "t": -1.743,
+    "p": 0.0814,
+    "lo": -0.5039,
+    "hi": 0.0296,
+    "beta": -0.171
+   },
+   {
+    "term": "n_hashtags",
+    "b": -0.0024,
+    "se": 0.0087,
+    "t": -0.27,
+    "p": 0.7868,
+    "lo": -0.0195,
+    "hi": 0.0147,
+    "beta": -0.029
+   },
+   {
+    "term": "cap_words",
+    "b": -0.0009,
+    "se": 0.0007,
+    "t": -1.209,
+    "p": 0.2266,
+    "lo": -0.0023,
+    "hi": 0.0005,
+    "beta": -0.044
+   }
+  ]
+ },
+ "M3_likerate": {
+  "formula": "like_rate ~ share_algo + n_hashtags + cap_second_person + cap_intrigue + is_kpop + is_perf",
+  "n": 93,
+  "clusters": 87,
+  "r2": 0.186,
+  "adj": 0.13,
+  "F": 3.283,
+  "Fp": 0.0059,
+  "rmse": 0.0697,
+  "aic": -224.73,
+  "bp_p": 0.5353,
+  "reset_p": 0.668,
+  "shapiro_p": 0.0001,
+  "dw": 1.832,
+  "maxcook": 0.2572,
+  "vif": {
+   "share_algo": 1.15,
+   "n_hashtags": 1.16,
+   "cap_second_person": 1.06,
+   "cap_intrigue": 1.07,
+   "is_kpop": 1.22,
+   "is_perf": 1.13
+  },
+  "coef": [
+   {
+    "term": "Intercept",
+    "b": 0.1343,
+    "se": 0.014,
+    "t": 9.584,
+    "p": 0.0,
+    "lo": 0.1068,
+    "hi": 0.1617,
+    "beta": null
+   },
+   {
+    "term": "share_algo",
+    "b": 0.042,
+    "se": 0.0686,
+    "t": 0.612,
+    "p": 0.5408,
+    "lo": -0.0925,
+    "hi": 0.1765,
+    "beta": 0.065
+   },
+   {
+    "term": "n_hashtags",
+    "b": 0.0012,
+    "se": 0.001,
+    "t": 1.234,
+    "p": 0.2172,
+    "lo": -0.0007,
+    "hi": 0.0032,
+    "beta": 0.115
+   },
+   {
+    "term": "cap_second_person",
+    "b": 0.0165,
+    "se": 0.0403,
+    "t": 0.41,
+    "p": 0.682,
+    "lo": -0.0625,
+    "hi": 0.0955,
+    "beta": 0.039
+   },
+   {
+    "term": "cap_intrigue",
+    "b": -0.0637,
+    "se": 0.0176,
+    "t": -3.609,
+    "p": 0.0003,
+    "lo": -0.0982,
+    "hi": -0.0291,
+    "beta": -0.24
+   },
+   {
+    "term": "is_kpop",
+    "b": -0.0048,
+    "se": 0.0161,
+    "t": -0.295,
+    "p": 0.768,
+    "lo": -0.0364,
+    "hi": 0.0268,
+    "beta": -0.032
+   },
+   {
+    "term": "is_perf",
+    "b": -0.0604,
+    "se": 0.0214,
+    "t": -2.826,
+    "p": 0.0047,
+    "lo": -0.1023,
+    "hi": -0.0185,
+    "beta": -0.334
+   }
+  ]
+ },
+ "M4_engagement_noncausal": {
+  "formula": "log_views ~ log_likes + log_comments",
+  "n": 93,
+  "clusters": 87,
+  "r2": 0.861,
+  "adj": 0.858,
+  "F": 278.258,
+  "Fp": 0.0,
+  "rmse": 0.216,
+  "aic": -18.19,
+  "bp_p": 0.4178,
+  "reset_p": 0.0002,
+  "shapiro_p": 0.4041,
+  "dw": 1.823,
+  "maxcook": 0.1665,
+  "vif": {
+   "log_likes": 5.66,
+   "log_comments": 5.66
+  },
+  "coef": [
+   {
+    "term": "Intercept",
+    "b": 2.3917,
+    "se": 0.2226,
+    "t": 10.745,
+    "p": 0.0,
+    "lo": 1.9554,
+    "hi": 2.828,
+    "beta": null
+   },
+   {
+    "term": "log_likes",
+    "b": 0.7101,
+    "se": 0.0792,
+    "t": 8.97,
+    "p": 0.0,
+    "lo": 0.555,
+    "hi": 0.8653,
+    "beta": 0.936
+   },
+   {
+    "term": "log_comments",
+    "b": -0.0073,
+    "se": 0.079,
+    "t": -0.093,
+    "p": 0.926,
+    "lo": -0.1621,
+    "hi": 0.1475,
+    "beta": -0.009
+   }
+  ]
+ },
+ "cap_problem_robustness": {
+  "n_flagged": 1,
+  "mwu_p": 0.043,
+  "loo_beta_min": -0.0,
+  "loo_beta_max": 1.288
+ }
+}

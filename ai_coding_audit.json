@@ -1,0 +1,54 @@
+{
+ "prompt_category_vocabulary_size": 13,
+ "prompt_tone_vocabulary_size": 8,
+ "category_labels_observed_unique": 30,
+ "category_in_vocabulary_n": 1,
+ "category_in_vocabulary_pct": 1.1,
+ "tone_labels_observed_unique": 55,
+ "tone_in_vocabulary_n": 0,
+ "tone_in_vocabulary_pct": 0.0,
+ "style_labels_observed_unique": 41,
+ "style_note": "'style' was not constrained by any vocabulary in the prompt",
+ "singleton_category_labels": 19,
+ "singleton_style_labels": 33,
+ "singleton_tone_labels": 38,
+ "cta_nonempty_pct": 100.0,
+ "case_variant_duplicate_groups_category": {
+  "kpop": [
+   "K-Pop",
+   "K-pop",
+   "Kpop"
+  ],
+  "musicdance": [
+   "Music & Dance",
+   "Music / Dance",
+   "Music/Dance"
+  ]
+ },
+ "case_variant_duplicate_groups_tone": {
+  "energeticandfun": [
+   "Energetic and Fun",
+   "Energetic and fun"
+  ],
+  "energeticandengaging": [
+   "Energetic and Engaging",
+   "Energetic and engaging"
+  ],
+  "energeticandenthusiastic": [
+   "Energetic and Enthusiastic",
+   "Energetic and enthusiastic"
+  ],
+  "excitedandenthusiastic": [
+   "Excited and Enthusiastic",
+   "Excited and enthusiastic"
+  ],
+  "excitingandenergetic": [
+   "Exciting and Energetic",
+   "Exciting and energetic"
+  ],
+  "informativeandengaging": [
+   "Informative and Engaging",
+   "Informative and engaging"
+  ]
+ }
+}

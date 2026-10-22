@@ -1,0 +1,1826 @@
+{
+  "sample_flow": {
+    "wave1_retrieved": 73,
+    "wave2_retrieved": 93,
+    "union_unique_ids": 93,
+    "duplicate_records_across_waves": 73,
+    "coded_dataset_rows": 93,
+    "unique_reelIds_final": 93,
+    "duplicate_rows_in_final": 0,
+    "unique_creators": 87,
+    "creators_with_multiple_videos": 4,
+    "max_videos_per_creator": 4,
+    "missing_caption": 1,
+    "missing_hashtags": 3,
+    "missing_metrics": 0,
+    "ai_coded_complete": 93,
+    "upload_window_start": "2025-06-06 15:01:00",
+    "upload_window_end": "2025-07-02 14:14:00",
+    "upload_span_days": 25.0
+  },
+  "virality_threshold": {
+    "p90_views": 3797830.999999999,
+    "n_viral": 10,
+    "n_nonviral": 83,
+    "prevalence": 0.10752688172043011
+  },
+  "descriptives": {
+    "videoViewCount": {
+      "n": 93,
+      "mean": 1409344.9569892474,
+      "sd": 2275740.8593050665,
+      "median": 497250.0,
+      "q1": 217021.0,
+      "q3": 1681401.0,
+      "minimum": 52343.0,
+      "maximum": 16805114.0,
+      "skew": 3.943482804860771,
+      "kurtosis": 21.32294177875635,
+      "iqr": 1464380.0
+    },
+    "likesCount": {
+      "n": 93,
+      "mean": 212637.01075268816,
+      "sd": 361964.8616311574,
+      "median": 66562.0,
+      "q1": 15229.0,
+      "q3": 253832.0,
+      "minimum": 652.0,
+      "maximum": 2498828.0,
+      "skew": 3.480727923012099,
+      "kurtosis": 16.303518043989104,
+      "iqr": 238603.0
+    },
+    "commentsCount": {
+      "n": 93,
+      "mean": 1288.6559139784947,
+      "sd": 2095.5775301013637,
+      "median": 454.0,
+      "q1": 123.0,
+      "q3": 1447.0,
+      "minimum": 10.0,
+      "maximum": 10896.0,
+      "skew": 2.7783167599615513,
+      "kurtosis": 8.101460673106471,
+      "iqr": 1324.0
+    },
+    "like_rate": {
+      "n": 93,
+      "mean": 0.12815632655932965,
+      "sd": 0.07472889754999217,
+      "median": 0.11287140187026973,
+      "q1": 0.07390239572364181,
+      "q3": 0.17298780707983774,
+      "minimum": 0.010366483822243422,
+      "maximum": 0.33143610328919776,
+      "skew": 0.6186612339012756,
+      "kurtosis": -0.22149467877131146,
+      "iqr": 0.09908541135619593
+    },
+    "comment_rate": {
+      "n": 93,
+      "mean": 0.0010013918203831986,
+      "sd": 0.0008917870008521298,
+      "median": 0.0008520599423249275,
+      "q1": 0.00037319762510602204,
+      "q3": 0.001264952204660707,
+      "minimum": 6.049460388133379e-05,
+      "maximum": 0.004726890756302521,
+      "skew": 2.224432930778413,
+      "kurtosis": 6.03661324615225,
+      "iqr": 0.0008917545795546849
+    },
+    "n_hashtags": {
+      "n": 93,
+      "mean": 9.053763440860216,
+      "sd": 6.946011666695234,
+      "median": 7.0,
+      "q1": 5.0,
+      "q3": 11.0,
+      "minimum": 0.0,
+      "maximum": 43.0,
+      "skew": 1.936753248292301,
+      "kurtosis": 5.490232583819687,
+      "iqr": 6.0
+    },
+    "cap_words": {
+      "n": 93,
+      "mean": 11.268817204301076,
+      "sd": 28.993304993659365,
+      "median": 6.0,
+      "q1": 2.0,
+      "q3": 12.0,
+      "minimum": 0.0,
+      "maximum": 269.0,
+      "skew": 7.796328800230021,
+      "kurtosis": 65.88799703357678,
+      "iqr": 10.0
+    }
+  },
+  "genre_freq": {
+    "K-pop": {
+      "n": 43,
+      "pct": 46.2
+    },
+    "Entertainment/Comedy": {
+      "n": 17,
+      "pct": 18.3
+    },
+    "Music (non-K-pop)": {
+      "n": 16,
+      "pct": 17.2
+    },
+    "Dance (non-K-pop)": {
+      "n": 12,
+      "pct": 12.9
+    },
+    "Culture/Fandom": {
+      "n": 3,
+      "pct": 3.2
+    },
+    "Other/Lifestyle": {
+      "n": 2,
+      "pct": 2.2
+    },
+    "_TOTAL": {
+      "n": 93,
+      "pct": 100.0
+    }
+  },
+  "style_freq": {
+    "Short-form video (generic)": {
+      "n": 58,
+      "pct": 62.4
+    },
+    "Performance/Choreography": {
+      "n": 9,
+      "pct": 9.7
+    },
+    "Fancam": {
+      "n": 9,
+      "pct": 9.7
+    },
+    "Informational/Talk": {
+      "n": 8,
+      "pct": 8.6
+    },
+    "Edit/Compilation": {
+      "n": 7,
+      "pct": 7.5
+    },
+    "Live/Livestream": {
+      "n": 2,
+      "pct": 2.2
+    },
+    "_TOTAL": {
+      "n": 93,
+      "pct": 100.0
+    }
+  },
+  "tone_freq": {
+    "High-energy": {
+      "n": 59,
+      "pct": 63.4
+    },
+    "Playful/Humorous": {
+      "n": 12,
+      "pct": 12.9
+    },
+    "Engaging (unspecified)": {
+      "n": 11,
+      "pct": 11.8
+    },
+    "Affective/Calm": {
+      "n": 7,
+      "pct": 7.5
+    },
+    "Informational/Neutral": {
+      "n": 4,
+      "pct": 4.3
+    },
+    "_TOTAL": {
+      "n": 93,
+      "pct": 100.0
+    }
+  },
+  "cta_freq": {
+    "1": {
+      "n": 93,
+      "pct": 100.0
+    },
+    "_TOTAL": {
+      "n": 93,
+      "pct": 100.0
+    }
+  },
+  "hashtag_composition": {
+    "total_tag_tokens": 842,
+    "mean_tags_per_video": 9.053763440860216,
+    "sd_tags_per_video": 6.946011666695234,
+    "algorithmic_tokens": 76,
+    "niche_tokens": 39,
+    "descriptive_tokens": 727,
+    "pct_algorithmic": 9.0,
+    "pct_niche": 4.6,
+    "pct_descriptive": 86.3,
+    "videos_using_all_three_layers": 10,
+    "videos_with_no_hashtags": 3
+  },
+  "correlations_with_log_views": {
+    "n_hashtags": {
+      "n": 93,
+      "r": -0.086,
+      "ci": [
+        -0.284,
+        0.12
+      ],
+      "p": 0.4149216937249449,
+      "rho": -0.132,
+      "p_spearman": 0.20854838196120418
+    },
+    "n_algo": {
+      "n": 93,
+      "r": 0.164,
+      "ci": [
+        -0.041,
+        0.356
+      ],
+      "p": 0.11622521842243626,
+      "rho": 0.156,
+      "p_spearman": 0.13661721005742275
+    },
+    "n_niche": {
+      "n": 93,
+      "r": -0.025,
+      "ci": [
+        -0.228,
+        0.179
+      ],
+      "p": 0.8095447272443911,
+      "rho": -0.104,
+      "p_spearman": 0.32299169952169404
+    },
+    "n_desc": {
+      "n": 93,
+      "r": -0.141,
+      "ci": [
+        -0.335,
+        0.064
+      ],
+      "p": 0.17737669315622417,
+      "rho": -0.145,
+      "p_spearman": 0.1646108154965518
+    },
+    "share_algo": {
+      "n": 93,
+      "r": 0.125,
+      "ci": [
+        -0.081,
+        0.321
+      ],
+      "p": 0.23178861889154898,
+      "rho": 0.15,
+      "p_spearman": 0.15218900038010086
+    },
+    "layer_count": {
+      "n": 93,
+      "r": -0.018,
+      "ci": [
+        -0.221,
+        0.186
+      ],
+      "p": 0.8640194533654749,
+      "rho": -0.01,
+      "p_spearman": 0.9263395671974555
+    },
+    "cap_words": {
+      "n": 93,
+      "r": -0.058,
+      "ci": [
+        -0.259,
+        0.147
+      ],
+      "p": 0.5783743780135729,
+      "rho": 0.016,
+      "p_spearman": 0.8814520954108878
+    },
+    "cap_second_person": {
+      "n": 93,
+      "r": 0.118,
+      "ci": [
+        -0.088,
+        0.314
+      ],
+      "p": 0.26175893156145363,
+      "rho": 0.113,
+      "p_spearman": 0.2793355126664284
+    },
+    "cap_intrigue": {
+      "n": 93,
+      "r": -0.08,
+      "ci": [
+        -0.279,
+        0.126
+      ],
+      "p": 0.44845399130303043,
+      "rho": -0.099,
+      "p_spearman": 0.34723170528464353
+    },
+    "cap_problem": {
+      "n": 93,
+      "r": 0.197,
+      "ci": [
+        -0.007,
+        0.385
+      ],
+      "p": 0.05814893428330277,
+      "rho": 0.175,
+      "p_spearman": 0.09383863558648113
+    },
+    "is_kpop": {
+      "n": 93,
+      "r": -0.23,
+      "ci": [
+        -0.414,
+        -0.027
+      ],
+      "p": 0.026686705546950105,
+      "rho": -0.237,
+      "p_spearman": 0.02218088390294684
+    },
+    "is_perf": {
+      "n": 93,
+      "r": -0.223,
+      "ci": [
+        -0.409,
+        -0.021
+      ],
+      "p": 0.03130215166828671,
+      "rho": -0.229,
+      "p_spearman": 0.027178584182615213
+    },
+    "cta_present": {
+      "n": 93,
+      "r": NaN,
+      "ci": [
+        NaN,
+        NaN
+      ],
+      "p": NaN,
+      "rho": NaN,
+      "p_spearman": NaN
+    }
+  },
+  "correlations_with_like_rate": {
+    "n_hashtags": {
+      "n": 93,
+      "r": 0.101,
+      "ci": [
+        -0.105,
+        0.299
+      ],
+      "p": 0.334109288827012,
+      "rho": 0.063,
+      "p_spearman": 0.547202237269653
+    },
+    "n_algo": {
+      "n": 93,
+      "r": 0.145,
+      "ci": [
+        -0.061,
+        0.339
+      ],
+      "p": 0.16607437840029424,
+      "rho": 0.14,
+      "p_spearman": 0.1794809545375104
+    },
+    "n_niche": {
+      "n": 93,
+      "r": 0.082,
+      "ci": [
+        -0.124,
+        0.281
+      ],
+      "p": 0.4360432669157786,
+      "rho": -0.108,
+      "p_spearman": 0.3015148695305516
+    },
+    "n_desc": {
+      "n": 93,
+      "r": 0.074,
+      "ci": [
+        -0.132,
+        0.273
+      ],
+      "p": 0.4825110247351987,
+      "rho": 0.041,
+      "p_spearman": 0.6986531511828912
+    },
+    "share_algo": {
+      "n": 93,
+      "r": 0.112,
+      "ci": [
+        -0.094,
+        0.309
+      ],
+      "p": 0.2844379837981111,
+      "rho": 0.119,
+      "p_spearman": 0.2556641261310157
+    },
+    "layer_count": {
+      "n": 93,
+      "r": 0.013,
+      "ci": [
+        -0.191,
+        0.216
+      ],
+      "p": 0.9027677374572215,
+      "rho": -0.011,
+      "p_spearman": 0.917116406327383
+    },
+    "cap_words": {
+      "n": 93,
+      "r": -0.127,
+      "ci": [
+        -0.323,
+        0.078
+      ],
+      "p": 0.22388898478262542,
+      "rho": 0.069,
+      "p_spearman": 0.5136137010292683
+    },
+    "cap_second_person": {
+      "n": 93,
+      "r": 0.056,
+      "ci": [
+        -0.149,
+        0.257
+      ],
+      "p": 0.5939260527955363,
+      "rho": 0.063,
+      "p_spearman": 0.5455308504061263
+    },
+    "cap_intrigue": {
+      "n": 93,
+      "r": -0.233,
+      "ci": [
+        -0.416,
+        -0.03
+      ],
+      "p": 0.024917797409328302,
+      "rho": -0.251,
+      "p_spearman": 0.015059316213154041
+    },
+    "cap_problem": {
+      "n": 93,
+      "r": -0.033,
+      "ci": [
+        -0.235,
+        0.172
+      ],
+      "p": 0.7547490144177026,
+      "rho": -0.016,
+      "p_spearman": 0.8825064489373686
+    },
+    "is_kpop": {
+      "n": 93,
+      "r": -0.152,
+      "ci": [
+        -0.345,
+        0.053
+      ],
+      "p": 0.14476791609941594,
+      "rho": -0.177,
+      "p_spearman": 0.09012441593018743
+    },
+    "is_perf": {
+      "n": 93,
+      "r": -0.313,
+      "ci": [
+        -0.486,
+        -0.117
+      ],
+      "p": 0.002234809161451951,
+      "rho": -0.372,
+      "p_spearman": 0.00023695882580698543
+    },
+    "cta_present": {
+      "n": 93,
+      "r": NaN,
+      "ci": [
+        NaN,
+        NaN
+      ],
+      "p": NaN,
+      "rho": NaN,
+      "p_spearman": NaN
+    }
+  },
+  "correlations_holm_adjusted_p": {
+    "is_kpop": 0.3469,
+    "is_perf": 0.3756,
+    "cap_problem": 0.6396,
+    "n_algo": 1.0,
+    "n_desc": 1.0,
+    "share_algo": 1.0,
+    "cap_second_person": 1.0,
+    "n_hashtags": 1.0,
+    "cap_intrigue": 1.0,
+    "cap_words": 1.0,
+    "n_niche": 1.0,
+    "layer_count": 1.0,
+    "cta_present": 1.0
+  },
+  "pca": {
+    "variables_entered": [
+      "n_hashtags",
+      "share_algo",
+      "share_niche",
+      "layer_count",
+      "cap_chars",
+      "cap_words",
+      "cap_second_person",
+      "cap_intrigue",
+      "is_perf",
+      "is_kpop"
+    ],
+    "n": 93,
+    "kmo_overall": 0.429,
+    "kmo_per_item": {
+      "n_hashtags": 0.384,
+      "share_algo": 0.292,
+      "share_niche": 0.27,
+      "layer_count": 0.424,
+      "cap_chars": 0.521,
+      "cap_words": 0.517,
+      "cap_second_person": 0.406,
+      "cap_intrigue": 0.744,
+      "is_perf": 0.366,
+      "is_kpop": 0.508
+    },
+    "bartlett_chi2": 655.09,
+    "bartlett_df": 45,
+    "bartlett_p": 3.0131192946391887e-109,
+    "eigenvalues": [
+      2.681,
+      2.032,
+      1.416,
+      1.02,
+      0.898,
+      0.744,
+      0.676,
+      0.546,
+      0.092,
+      0.004
+    ],
+    "explained_variance_pct": [
+      26.52,
+      20.1,
+      14.01,
+      10.09,
+      8.88,
+      7.36,
+      6.68,
+      5.4,
+      0.91,
+      0.04
+    ],
+    "cumulative_pct": [
+      26.52,
+      46.62,
+      60.63,
+      70.72,
+      79.6,
+      86.96,
+      93.65,
+      99.05,
+      99.96,
+      100.0
+    ],
+    "parallel_analysis_95th": [
+      1.731,
+      1.502,
+      1.345,
+      1.216,
+      1.107,
+      1.008,
+      0.917,
+      0.823,
+      0.73,
+      0.638
+    ],
+    "n_components_kaiser": 4,
+    "n_components_parallel": 3,
+    "loadings": {
+      "n_hashtags": [
+        0.536,
+        0.455,
+        0.149,
+        -0.252
+      ],
+      "share_algo": [
+        0.453,
+        0.237,
+        0.72,
+        -0.122
+      ],
+      "share_niche": [
+        0.441,
+        0.378,
+        -0.45,
+        0.18
+      ],
+      "layer_count": [
+        0.807,
+        0.458,
+        0.182,
+        -0.074
+      ],
+      "cap_chars": [
+        -0.729,
+        0.61,
+        0.107,
+        0.131
+      ],
+      "cap_words": [
+        -0.714,
+        0.631,
+        0.123,
+        0.119
+      ],
+      "cap_second_person": [
+        0.132,
+        0.121,
+        0.445,
+        0.759
+      ],
+      "cap_intrigue": [
+        -0.445,
+        0.386,
+        0.171,
+        -0.404
+      ],
+      "is_perf": [
+        0.278,
+        0.371,
+        -0.464,
+        0.322
+      ],
+      "is_kpop": [
+        0.103,
+        0.587,
+        -0.413,
+        -0.172
+      ]
+    },
+    "communalities": {
+      "n_hashtags": 0.58,
+      "share_algo": 0.794,
+      "share_niche": 0.572,
+      "layer_count": 0.899,
+      "cap_chars": 0.933,
+      "cap_words": 0.937,
+      "cap_second_person": 0.807,
+      "cap_intrigue": 0.539,
+      "is_perf": 0.533,
+      "is_kpop": 0.556
+    }
+  },
+  "model1_content_only": {
+    "formula": "log_views ~ share_algo + n_hashtags + layer_count + cap_words + cap_second_person + cap_intrigue + cap_problem + is_kpop + is_perf + cta_present",
+    "n": 93,
+    "n_clusters": 87,
+    "r2": 0.129,
+    "adj_r2": 0.034,
+    "f": 1.361,
+    "f_p": 0.21906686010983162,
+    "rmse": 0.5627,
+    "aic": 166.39,
+    "bic": 191.71,
+    "coefficients": {
+      "Intercept": {
+        "b": 2.9588,
+        "se": 0.0721,
+        "t": 41.046,
+        "p": 0.0,
+        "ci": [
+          2.8175,
+          3.1001
+        ]
+      },
+      "share_algo": {
+        "b": 0.528,
+        "se": 0.629,
+        "t": 0.839,
+        "p": 0.4012665026293015,
+        "ci": [
+          -0.7049,
+          1.7609
+        ]
+      },
+      "n_hashtags": {
+        "b": -0.0087,
+        "se": 0.011,
+        "t": -0.788,
+        "p": 0.43047031763497334,
+        "ci": [
+          -0.0302,
+          0.0129
+        ]
+      },
+      "layer_count": {
+        "b": 0.0162,
+        "se": 0.112,
+        "t": 0.144,
+        "p": 0.8852318662802484,
+        "ci": [
+          -0.2033,
+          0.2356
+        ]
+      },
+      "cap_words": {
+        "b": -0.0004,
+        "se": 0.001,
+        "t": -0.437,
+        "p": 0.6622854434912857,
+        "ci": [
+          -0.0024,
+          0.0015
+        ]
+      },
+      "cap_second_person": {
+        "b": -0.0126,
+        "se": 0.2269,
+        "t": -0.055,
+        "p": 0.9558252829620334,
+        "ci": [
+          -0.4573,
+          0.4322
+        ]
+      },
+      "cap_intrigue": {
+        "b": -0.1277,
+        "se": 0.2214,
+        "t": -0.577,
+        "p": 0.5642299672736668,
+        "ci": [
+          -0.5617,
+          0.3063
+        ]
+      },
+      "cap_problem": {
+        "b": 0.9659,
+        "se": 0.2581,
+        "t": 3.743,
+        "p": 0.00018175152470422415,
+        "ci": [
+          0.4602,
+          1.4717
+        ]
+      },
+      "is_kpop": {
+        "b": -0.1433,
+        "se": 0.1327,
+        "t": -1.08,
+        "p": 0.28008181439023094,
+        "ci": [
+          -0.4035,
+          0.1168
+        ]
+      },
+      "is_perf": {
+        "b": -0.2328,
+        "se": 0.1438,
+        "t": -1.619,
+        "p": 0.10538108381554222,
+        "ci": [
+          -0.5146,
+          0.049
+        ]
+      },
+      "cta_present": {
+        "b": 2.9588,
+        "se": 0.0721,
+        "t": 41.046,
+        "p": 0.0,
+        "ci": [
+          2.8175,
+          3.1001
+        ]
+      }
+    },
+    "standardized_beta": {
+      "share_algo": 0.106,
+      "n_hashtags": -0.105,
+      "layer_count": 0.021,
+      "cap_words": -0.022,
+      "cap_second_person": -0.004,
+      "cap_intrigue": -0.063,
+      "cap_problem": 0.175,
+      "is_kpop": -0.126,
+      "is_perf": -0.168,
+      "cta_present": 0.0
+    },
+    "vif": {
+      "share_algo": 1.82,
+      "n_hashtags": 1.73,
+      "layer_count": 2.79,
+      "cap_words": 1.25,
+      "cap_second_person": 1.58,
+      "cap_intrigue": 1.23,
+      "cap_problem": 1.56,
+      "is_kpop": 1.24,
+      "is_perf": 1.25,
+      "cta_present": 0.0
+    },
+    "breusch_pagan_LM": 8.302,
+    "breusch_pagan_p": 0.5993973677207368,
+    "ramsey_reset_p": 0.03320871064184369,
+    "shapiro_resid_p": 0.5907946143298128,
+    "durbin_watson": 1.651,
+    "max_cooks_d": 21.711,
+    "n_cooks_above_4_over_n": 5,
+    "condition_number": 1.7549850192287008e+17
+  },
+  "model0_genre_only": {
+    "formula": "log_views ~ is_kpop + is_perf",
+    "n": 93,
+    "n_clusters": 87,
+    "r2": 0.079,
+    "adj_r2": 0.058,
+    "f": 3.857,
+    "f_p": 0.02471948109729392,
+    "rmse": 0.5556,
+    "aic": 157.54,
+    "bic": 165.14,
+    "coefficients": {
+      "Intercept": {
+        "b": 5.9224,
+        "se": 0.0896,
+        "t": 66.093,
+        "p": 0.0,
+        "ci": [
+          5.7467,
+          6.098
+        ]
+      },
+      "is_kpop": {
+        "b": -0.204,
+        "se": 0.1158,
+        "t": -1.762,
+        "p": 0.07801956666038941,
+        "ci": [
+          -0.4309,
+          0.0229
+        ]
+      },
+      "is_perf": {
+        "b": -0.235,
+        "se": 0.1352,
+        "t": -1.738,
+        "p": 0.0822872064768954,
+        "ci": [
+          -0.5,
+          0.0301
+        ]
+      }
+    },
+    "standardized_beta": {
+      "is_kpop": -0.179,
+      "is_perf": -0.17
+    },
+    "vif": {
+      "is_kpop": 1.1,
+      "is_perf": 1.1
+    },
+    "breusch_pagan_LM": 4.751,
+    "breusch_pagan_p": 0.09297275625320668,
+    "ramsey_reset_p": 0.2692772893478849,
+    "shapiro_resid_p": 0.32435778293807954,
+    "durbin_watson": 1.565,
+    "max_cooks_d": 0.0645,
+    "n_cooks_above_4_over_n": 3,
+    "condition_number": 3.1
+  },
+  "model2_pca_components": {
+    "formula": "log_views ~ PC1 + PC2 + PC3 + PC4",
+    "n": 93,
+    "n_clusters": 87,
+    "r2": 0.092,
+    "adj_r2": 0.05,
+    "f": 2.218,
+    "f_p": 0.07345359052523684,
+    "rmse": 0.558,
+    "aic": 160.26,
+    "bic": 172.92,
+    "coefficients": {
+      "Intercept": {
+        "b": 5.7775,
+        "se": 0.0579,
+        "t": 99.702,
+        "p": 0.0,
+        "ci": [
+          5.6639,
+          5.8911
+        ]
+      },
+      "PC1": {
+        "b": 0.0041,
+        "se": 0.0253,
+        "t": 0.164,
+        "p": 0.8695796823783791,
+        "ci": [
+          -0.0454,
+          0.0537
+        ]
+      },
+      "PC2": {
+        "b": -0.0729,
+        "se": 0.0317,
+        "t": -2.3,
+        "p": 0.021455729957315667,
+        "ci": [
+          -0.135,
+          -0.0108
+        ]
+      },
+      "PC3": {
+        "b": 0.1121,
+        "se": 0.05,
+        "t": 2.245,
+        "p": 0.02477963820136371,
+        "ci": [
+          0.0142,
+          0.21
+        ]
+      },
+      "PC4": {
+        "b": 0.0367,
+        "se": 0.0562,
+        "t": 0.654,
+        "p": 0.5134039423068868,
+        "ci": [
+          -0.0734,
+          0.1469
+        ]
+      }
+    },
+    "standardized_beta": {
+      "PC1": 0.012,
+      "PC2": -0.181,
+      "PC3": 0.233,
+      "PC4": 0.065
+    },
+    "vif": {
+      "PC1": 1.0,
+      "PC2": 1.0,
+      "PC3": 1.0,
+      "PC4": 1.0
+    },
+    "breusch_pagan_LM": 1.832,
+    "breusch_pagan_p": 0.7666893384600457,
+    "ramsey_reset_p": 0.9121400679836212,
+    "shapiro_resid_p": 0.6912444636155943,
+    "durbin_watson": 1.641,
+    "max_cooks_d": 0.4445,
+    "n_cooks_above_4_over_n": 6,
+    "condition_number": 1.6
+  },
+  "model3_like_rate": {
+    "formula": "like_rate ~ share_algo + n_hashtags + cap_second_person + cap_intrigue + is_kpop + is_perf + cta_present",
+    "n": 93,
+    "n_clusters": 87,
+    "r2": 0.186,
+    "adj_r2": 0.13,
+    "f": 3.283,
+    "f_p": 0.0058951853812545165,
+    "rmse": 0.0697,
+    "aic": -224.73,
+    "bic": -207.0,
+    "coefficients": {
+      "Intercept": {
+        "b": 0.0671,
+        "se": 0.007,
+        "t": 9.529,
+        "p": 1.5950460707662091e-21,
+        "ci": [
+          0.0533,
+          0.0809
+        ]
+      },
+      "share_algo": {
+        "b": 0.042,
+        "se": 0.069,
+        "t": 0.608,
+        "p": 0.5431257585523981,
+        "ci": [
+          -0.0933,
+          0.1772
+        ]
+      },
+      "n_hashtags": {
+        "b": 0.0012,
+        "se": 0.001,
+        "t": 1.227,
+        "p": 0.2198507463439987,
+        "ci": [
+          -0.0007,
+          0.0032
+        ]
+      },
+      "cap_second_person": {
+        "b": 0.0165,
+        "se": 0.0405,
+        "t": 0.407,
+        "p": 0.6837386320635153,
+        "ci": [
+          -0.0629,
+          0.096
+        ]
+      },
+      "cap_intrigue": {
+        "b": -0.0637,
+        "se": 0.0177,
+        "t": -3.588,
+        "p": 0.00033328362011094336,
+        "ci": [
+          -0.0984,
+          -0.0289
+        ]
+      },
+      "is_kpop": {
+        "b": -0.0048,
+        "se": 0.0162,
+        "t": -0.293,
+        "p": 0.7693242430374578,
+        "ci": [
+          -0.0365,
+          0.027
+        ]
+      },
+      "is_perf": {
+        "b": -0.0604,
+        "se": 0.0215,
+        "t": -2.81,
+        "p": 0.0049550365845566855,
+        "ci": [
+          -0.1025,
+          -0.0183
+        ]
+      },
+      "cta_present": {
+        "b": 0.0671,
+        "se": 0.007,
+        "t": 9.529,
+        "p": 1.5950460707667824e-21,
+        "ci": [
+          0.0533,
+          0.0809
+        ]
+      }
+    },
+    "standardized_beta": {
+      "share_algo": 0.065,
+      "n_hashtags": 0.115,
+      "cap_second_person": 0.039,
+      "cap_intrigue": -0.24,
+      "is_kpop": -0.032,
+      "is_perf": -0.334,
+      "cta_present": 0.0
+    },
+    "vif": {
+      "share_algo": 1.15,
+      "n_hashtags": 1.16,
+      "cap_second_person": 1.06,
+      "cap_intrigue": 1.07,
+      "is_kpop": 1.22,
+      "is_perf": 1.13,
+      "cta_present": 0.0
+    },
+    "breusch_pagan_LM": 5.067,
+    "breusch_pagan_p": 0.6518244866265026,
+    "ramsey_reset_p": 0.6680424037635182,
+    "shapiro_resid_p": 0.00013536999223995766,
+    "durbin_watson": 1.832,
+    "max_cooks_d": 0.225,
+    "n_cooks_above_4_over_n": 5,
+    "condition_number": 6.4552982675142776e+16
+  },
+  "model4_comment_rate": {
+    "formula": "comment_rate ~ share_algo + n_hashtags + cap_second_person + cap_intrigue + is_kpop + is_perf + cta_present",
+    "n": 93,
+    "n_clusters": 87,
+    "r2": 0.089,
+    "adj_r2": 0.025,
+    "f": 1.393,
+    "f_p": 0.22664451455961251,
+    "rmse": 0.0009,
+    "aic": -1037.85,
+    "bic": -1020.13,
+    "coefficients": {
+      "Intercept": {
+        "b": 0.0004,
+        "se": 0.0001,
+        "t": 5.323,
+        "p": 1.0181349678932781e-07,
+        "ci": [
+          0.0003,
+          0.0006
+        ]
+      },
+      "share_algo": {
+        "b": 0.0009,
+        "se": 0.0011,
+        "t": 0.827,
+        "p": 0.40822094639385964,
+        "ci": [
+          -0.0012,
+          0.003
+        ]
+      },
+      "n_hashtags": {
+        "b": 0.0,
+        "se": 0.0,
+        "t": 1.326,
+        "p": 0.1847489967574928,
+        "ci": [
+          -0.0,
+          0.0
+        ]
+      },
+      "cap_second_person": {
+        "b": 0.0001,
+        "se": 0.0003,
+        "t": 0.433,
+        "p": 0.665124671220862,
+        "ci": [
+          -0.0004,
+          0.0007
+        ]
+      },
+      "cap_intrigue": {
+        "b": 0.0003,
+        "se": 0.0005,
+        "t": 0.527,
+        "p": 0.5983305746449935,
+        "ci": [
+          -0.0007,
+          0.0013
+        ]
+      },
+      "is_kpop": {
+        "b": -0.0,
+        "se": 0.0002,
+        "t": -0.018,
+        "p": 0.985970834247743,
+        "ci": [
+          -0.0004,
+          0.0003
+        ]
+      },
+      "is_perf": {
+        "b": -0.0005,
+        "se": 0.0002,
+        "t": -2.015,
+        "p": 0.043946952593858654,
+        "ci": [
+          -0.0009,
+          -0.0
+        ]
+      },
+      "cta_present": {
+        "b": 0.0004,
+        "se": 0.0001,
+        "t": 5.323,
+        "p": 1.018134967893411e-07,
+        "ci": [
+          0.0003,
+          0.0006
+        ]
+      }
+    },
+    "standardized_beta": {
+      "share_algo": 0.116,
+      "n_hashtags": 0.134,
+      "cap_second_person": 0.024,
+      "cap_intrigue": 0.085,
+      "is_kpop": -0.002,
+      "is_perf": -0.211,
+      "cta_present": 0.0
+    },
+    "vif": {
+      "share_algo": 1.15,
+      "n_hashtags": 1.16,
+      "cap_second_person": 1.06,
+      "cap_intrigue": 1.07,
+      "is_kpop": 1.22,
+      "is_perf": 1.13,
+      "cta_present": 0.0
+    },
+    "breusch_pagan_LM": 4.378,
+    "breusch_pagan_p": 0.7353174342675892,
+    "ramsey_reset_p": 0.5048068103096195,
+    "shapiro_resid_p": 1.92845278340976e-10,
+    "durbin_watson": 2.066,
+    "max_cooks_d": 0.3555,
+    "n_cooks_above_4_over_n": 5,
+    "condition_number": 6.4552982675142776e+16
+  },
+  "model5_engagement_association_NONCAUSAL": {
+    "formula": "log_views ~ log_likes + log_comments",
+    "n": 93,
+    "n_clusters": 87,
+    "r2": 0.861,
+    "adj_r2": 0.858,
+    "f": 278.258,
+    "f_p": 2.916228428701791e-39,
+    "rmse": 0.216,
+    "aic": -18.19,
+    "bic": -10.59,
+    "coefficients": {
+      "Intercept": {
+        "b": 2.3917,
+        "se": 0.2226,
+        "t": 10.745,
+        "p": 6.28581632134796e-27,
+        "ci": [
+          1.9554,
+          2.828
+        ]
+      },
+      "log_likes": {
+        "b": 0.7101,
+        "se": 0.0792,
+        "t": 8.97,
+        "p": 2.961073978829181e-19,
+        "ci": [
+          0.555,
+          0.8653
+        ]
+      },
+      "log_comments": {
+        "b": -0.0073,
+        "se": 0.079,
+        "t": -0.093,
+        "p": 0.9259632366550646,
+        "ci": [
+          -0.1621,
+          0.1475
+        ]
+      }
+    },
+    "standardized_beta": {
+      "log_likes": 0.936,
+      "log_comments": -0.009
+    },
+    "vif": {
+      "log_likes": 5.66,
+      "log_comments": 5.66
+    },
+    "breusch_pagan_LM": 1.745,
+    "breusch_pagan_p": 0.41784837617607373,
+    "ramsey_reset_p": 0.000219840862735771,
+    "shapiro_resid_p": 0.40414163507042383,
+    "durbin_watson": 1.823,
+    "max_cooks_d": 0.1665,
+    "n_cooks_above_4_over_n": 8,
+    "condition_number": 50.0
+  },
+  "kpop_baseline": {
+    "prevalence_in_sampling_frame_pct": 46.2,
+    "n_kpop": 43,
+    "n_nonkpop": 50,
+    "kpop_share_of_top_decile_pct": 30.0,
+    "n_kpop_in_top_decile": 3,
+    "views": {
+      "median_kpop": 345426.0,
+      "median_nonkpop": 809139.5,
+      "median_ratio": 0.427,
+      "median_ratio_boot95CI": [
+        0.203,
+        0.834
+      ],
+      "mannwhitney_U": 780.0,
+      "p": 0.023249817919320858,
+      "rank_biserial_r": -0.274,
+      "cliffs_delta": -0.274,
+      "hedges_g_log": -0.469
+    },
+    "like_rate": {
+      "median_kpop": 0.09949,
+      "median_nonkpop": 0.1307,
+      "mannwhitney_U": 855.0,
+      "p": 0.09076365496270798,
+      "cliffs_delta": -0.205
+    },
+    "comment_rate": {
+      "median_kpop": 0.00089,
+      "median_nonkpop": 0.00081,
+      "mannwhitney_U": 1012.0,
+      "p": 0.6300893340571934,
+      "cliffs_delta": -0.059
+    },
+    "kpop_x_topdecile": {
+      "table": [
+        [
+          43,
+          7
+        ],
+        [
+          40,
+          3
+        ]
+      ],
+      "chi2": 0.569,
+      "df": 1,
+      "p": 0.45061135638155636,
+      "fisher_p": 0.33106607805716465,
+      "cramers_v": 0.078,
+      "min_expected": 4.62
+    }
+  },
+  "classification": {
+    "logistic_l2_balanced": {
+      "accuracy": {
+        "mean": 0.481,
+        "sd": 0.161,
+        "folds": [
+          0.368,
+          0.579,
+          0.737,
+          0.278,
+          0.444
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.489,
+        "sd": 0.112,
+        "folds": [
+          0.426,
+          0.324,
+          0.632,
+          0.594,
+          0.469
+        ]
+      },
+      "precision": {
+        "mean": 0.103,
+        "sd": 0.065,
+        "folds": [
+          0.083,
+          0.0,
+          0.2,
+          0.133,
+          0.1
+        ]
+      },
+      "recall": {
+        "mean": 0.5,
+        "sd": 0.316,
+        "folds": [
+          0.5,
+          0.0,
+          0.5,
+          1.0,
+          0.5
+        ]
+      },
+      "f1": {
+        "mean": 0.166,
+        "sd": 0.097,
+        "folds": [
+          0.143,
+          0.0,
+          0.286,
+          0.235,
+          0.167
+        ]
+      },
+      "roc_auc": {
+        "mean": 0.432,
+        "sd": 0.184,
+        "folds": [
+          0.324,
+          0.324,
+          0.794,
+          0.312,
+          0.406
+        ]
+      },
+      "average_precision": {
+        "mean": 0.156,
+        "sd": 0.068,
+        "folds": [
+          0.114,
+          0.124,
+          0.292,
+          0.117,
+          0.133
+        ]
+      },
+      "confusion_matrix_TN_FP_FN_TP": [
+        40,
+        43,
+        5,
+        5
+      ],
+      "per_class": {
+        "non_viral": {
+          "precision": 0.889,
+          "recall": 0.482,
+          "f1": 0.625,
+          "support": 83
+        },
+        "viral": {
+          "precision": 0.104,
+          "recall": 0.5,
+          "f1": 0.172,
+          "support": 10
+        }
+      }
+    },
+    "random_forest_balanced": {
+      "accuracy": {
+        "mean": 0.849,
+        "sd": 0.044,
+        "folds": [
+          0.842,
+          0.895,
+          0.895,
+          0.833,
+          0.778
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.475,
+        "sd": 0.023,
+        "folds": [
+          0.471,
+          0.5,
+          0.5,
+          0.469,
+          0.438
+        ]
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "f1": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 0.612,
+        "sd": 0.155,
+        "folds": [
+          0.588,
+          0.912,
+          0.529,
+          0.469,
+          0.562
+        ]
+      },
+      "average_precision": {
+        "mean": 0.342,
+        "sd": 0.16,
+        "folds": [
+          0.174,
+          0.5,
+          0.556,
+          0.306,
+          0.174
+        ]
+      },
+      "confusion_matrix_TN_FP_FN_TP": [
+        79,
+        4,
+        10,
+        0
+      ],
+      "per_class": {
+        "non_viral": {
+          "precision": 0.888,
+          "recall": 0.952,
+          "f1": 0.919,
+          "support": 83
+        },
+        "viral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        }
+      }
+    },
+    "dummy_majority": {
+      "accuracy": {
+        "mean": 0.892,
+        "sd": 0.003,
+        "folds": [
+          0.895,
+          0.895,
+          0.895,
+          0.889,
+          0.889
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.5,
+        "sd": 0.0,
+        "folds": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "precision": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "recall": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "f1": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "folds": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 0.5,
+        "sd": 0.0,
+        "folds": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "average_precision": {
+        "mean": 0.108,
+        "sd": 0.003,
+        "folds": [
+          0.105,
+          0.105,
+          0.105,
+          0.111,
+          0.111
+        ]
+      },
+      "confusion_matrix_TN_FP_FN_TP": [
+        83,
+        0,
+        10,
+        0
+      ],
+      "per_class": {
+        "non_viral": {
+          "precision": 0.892,
+          "recall": 1.0,
+          "f1": 0.943,
+          "support": 83
+        },
+        "viral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        }
+      }
+    },
+    "dummy_stratified": {
+      "accuracy": {
+        "mean": 0.828,
+        "sd": 0.052,
+        "folds": [
+          0.789,
+          0.895,
+          0.789,
+          0.889,
+          0.778
+        ]
+      },
+      "balanced_accuracy": {
+        "mean": 0.552,
+        "sd": 0.137,
+        "folds": [
+          0.441,
+          0.721,
+          0.441,
+          0.719,
+          0.438
+        ]
+      },
+      "precision": {
+        "mean": 0.2,
+        "sd": 0.245,
+        "folds": [
+          0.0,
+          0.5,
+          0.0,
+          0.5,
+          0.0
+        ]
+      },
+      "recall": {
+        "mean": 0.2,
+        "sd": 0.245,
+        "folds": [
+          0.0,
+          0.5,
+          0.0,
+          0.5,
+          0.0
+        ]
+      },
+      "f1": {
+        "mean": 0.2,
+        "sd": 0.245,
+        "folds": [
+          0.0,
+          0.5,
+          0.0,
+          0.5,
+          0.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 0.552,
+        "sd": 0.137,
+        "folds": [
+          0.441,
+          0.721,
+          0.441,
+          0.719,
+          0.438
+        ]
+      },
+      "average_precision": {
+        "mean": 0.186,
+        "sd": 0.096,
+        "folds": [
+          0.105,
+          0.303,
+          0.105,
+          0.306,
+          0.111
+        ]
+      },
+      "confusion_matrix_TN_FP_FN_TP": [
+        75,
+        8,
+        8,
+        2
+      ],
+      "per_class": {
+        "non_viral": {
+          "precision": 0.904,
+          "recall": 0.904,
+          "f1": 0.904,
+          "support": 83
+        },
+        "viral": {
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.2,
+          "support": 10
+        }
+      }
+    },
+    "logistic_grouped_by_creator": {
+      "balanced_accuracy": {
+        "mean": 0.602,
+        "sd": 0.128
+      },
+      "roc_auc": {
+        "mean": 0.608,
+        "sd": 0.156
+      },
+      "average_precision": {
+        "mean": 0.218,
+        "sd": 0.16
+      }
+    },
+    "permutation_test": {
+      "observed_balanced_accuracy": 0.489,
+      "null_mean": 0.501,
+      "p": 0.5574425574425574,
+      "n_permutations": 1000
+    },
+    "class_distribution": {
+      "viral": 10,
+      "non_viral": 83,
+      "positive_rate": 0.108
+    },
+    "events_per_variable": 1.0,
+    "features_used": [
+      "share_algo",
+      "n_hashtags",
+      "layer_count",
+      "cap_words",
+      "cap_second_person",
+      "cap_intrigue",
+      "cap_problem",
+      "is_kpop",
+      "is_perf",
+      "cta_present"
+    ],
+    "features_excluded_to_prevent_leakage": [
+      "videoViewCount",
+      "log_views",
+      "likesCount",
+      "commentsCount",
+      "like_rate",
+      "comment_rate",
+      "view_to_interaction_ratio"
+    ]
+  },
+  "regression_cv": {
+    "model": "RidgeCV (alpha tuned inside each training fold), 5-fold",
+    "in_sample_r2_model1": 0.129,
+    "cv_r2_mean": -0.037,
+    "cv_r2_sd": 0.051,
+    "cv_r2_folds": [
+      0.015,
+      -0.088,
+      0.02,
+      -0.031,
+      -0.102
+    ],
+    "cv_rmse_mean_log10_units": 0.561,
+    "cv_rmse_sd": 0.112,
+    "baseline_rmse_mean_predictor": 0.573
+  },
+  "provenance": {
+    "scraper_actor": "apidojo/tiktok-scraper (Apify actor 5K30i8aFccKNF5ICs)",
+    "scraper_params": {
+      "dateRange": "THIS_WEEK",
+      "location": "US",
+      "maxItems_per_keyword": 5,
+      "top_n_retained_per_run": 15,
+      "schedule": "every 7 days"
+    },
+    "ai_model": "gemini-1.5-pro (generativelanguage.googleapis.com/v1beta)",
+    "ai_input": "video file uploaded via Gemini Files API (visual + audio track); captions/hashtags/metadata NOT supplied to the model",
+    "ai_response_schema": [
+      "analysis",
+      "category",
+      "hook",
+      "visualHook",
+      "style",
+      "CTA",
+      "tone"
+    ],
+    "orchestration": "n8n workflow 'Content Analyzer (Tiktok)'; Airtable base as store",
+    "dataset_sha256": "830637f9b11d3234"
+  }
+}
